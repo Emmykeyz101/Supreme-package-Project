@@ -162,19 +162,19 @@ swiper-slide {
     transform: scale(1.05); 
 }
 .imge1{
-    background-image: url(/Images/main-2.jpg);
+    background-image: url("../Images/main-2.jpg");
     background-size: cover;
 }
 .imge2{
-    background-image: url(/Images/WhatsApp\ Image\ 2024-10-29\ at\ 14.06.52.jpeg);
+    background-image: url("../Images/WhatsApp\ Image\ 2024-10-29\ at\ 14.06.52.jpeg");
     background-size: cover;
 }
 .imge3{
-    background-image: url(/Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.29\ \(4\).jpeg);
+    background-image: url("../Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.29\ \(4\).jpeg");
     background-size: cover;
 }
 .imge4{
-    background-image: url(/Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.29.jpeg);
+    background-image: url("../Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.29.jpeg");
     background-size: cover;
 } 
 /* .imge5{
@@ -183,62 +183,62 @@ swiper-slide {
     background-position: center;
 } */
 .imge6{
-    background-image: url(/Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.30.jpeg);
+    background-image: url("../Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.30.jpeg");
     background-size: cover;
 }
 .imge7{
-    background-image: url(/Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.30\ \(2\).jpeg);
+    background-image: url("../Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.30\ \(2\).jpeg");
     background-size: cover;
 }
 .imge8{
-    background-image: url(/Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.30\ \(3\).jpeg);
+    background-image: url("../Images/WhatsApp\ Image\ 2024-09-30\ at\ 05.53.30\ \(3\).jpeg");
     background-size: cover;
     background-position: center;
 }
 .imge9{
-    background-image: url(/Images/WhatsApp\ Image\ 2024-10-29\ at\ 07.54.22.jpeg);
+    background-image: url("../Images/WhatsApp\ Image\ 2024-10-29\ at\ 07.54.22.jpeg");
     background-size: cover;
 }
 .imge10{
-    background-image: url(/Images/c24630fc-b481-45b0-a133-47882f572fa6.jpeg);
+    background-image: url("../Images/c24630fc-b481-45b0-a133-47882f572fa6.jpeg");
     background-size: cover;
 }
 .imge11{
-    background-image: url(/Images/69425a1f-d1d1-490b-9baf-6432a70990ed.jpeg);
+    background-image: url("../Images/69425a1f-d1d1-490b-9baf-6432a70990ed.jpeg");
     height: 300px;
     background-size: cover;
 }
 .imge12{
-    background-image: url(/Images/cd287e1d-4adc-429f-a0ad-2dd12d2d7322.jpeg);
+    background-image: url("../Images/cd287e1d-4adc-429f-a0ad-2dd12d2d7322.jpeg");
     background-size: cover;
     background-position: center;
 }
 .imge13{
-    background-image: url(/Images/4161641f-89cd-4695-80a2-f49ca4b206da.jpeg);
+    background-image: url("..Images/4161641f-89cd-4695-80a2-f49ca4b206da.jpeg");
     background-position: center;
     background-size: cover;
 }
 .imge14{
-    background-image: url(/Images/82435809-1d70-47d5-be5b-884c62531117.jpeg);
+    background-image: url("../Images/82435809-1d70-47d5-be5b-884c62531117.jpeg");
     background-size: cover;
     height: 300px;
     background-position: center;
 }
 .imge15{
-    background-image: url(/Images/062ff8bf-f5f3-4cf0-959f-da6c15090151.jpeg);
+    background-image: url("../Images/062ff8bf-f5f3-4cf0-959f-da6c15090151.jpeg");
     background-size: cover;
 }
 .imge16{
-    background-image: url(/Images/3ed627be-5d90-4838-8651-73039a5e6078.jpeg);
+    background-image: url("../Images/3ed627be-5d90-4838-8651-73039a5e6078.jpeg");
     background-size: cover;
 }
 .imge17{
-    background-image: url(/Images/dd98a68d-440b-4270-99b0-36a412cd8d3d.jpeg);
+    background-image: url("../Images/dd98a68d-440b-4270-99b0-36a412cd8d3d.jpeg");
     background-size: cover;
     height: 300px;
 }
 .imge18{
-    background-image: url(/Images/WhatsApp\ Image\ 2024-10-03\ at\ 07.02.57.jpeg);
+    background-image: url("../Images/WhatsApp\ Image\ 2024-10-03\ at\ 07.02.57.jpeg");
     background-size: cover;
 }
 .Grid{
