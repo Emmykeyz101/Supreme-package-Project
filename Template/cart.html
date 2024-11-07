@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My fa-cart-shopping</title>
+    <link rel="stylesheet" href="/Style/style.css">
+    <link rel="shortcut icon" href="logo-removebg-preview.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/Style/media.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <style>
+        .cart-div {
+            background-color: rgb(201, 214, 221);
+            height: 100%;
+            padding-top: 10px;
+        }
+
+        .cart {
+            background-color: blue;
+            margin: auto;
+            width: 80%;
+            padding: 20px 0 20px 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+        }
+
+        .class-p {
+            font-weight: bold;
+            font-size: 22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .div-p {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            flex-direction: column;
+            width: 80%;
+            margin: auto;
+        }
+
+        .HR {
+            width: 80%;
+            margin: auto;
+            height: 2px;
+            background-color: black;
+            margin-top: 10px;
+            border: none;
+        }
+
+        .class-total {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+        }
+
+        .h1-span {
+            color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .h1-total {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .remove{
+            background-color: red;
+            color: white;
+            border: 1px solid transparent;
+            padding: 7px 15px 7px 15px;
+            border-radius: 5px;
+            /* position: relative;
+            left: 450px;
+            bottom: 170px; */
+        }
+        .all-items {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .img-item {
+            width: 50%;
+        }
+        .img-item img {
+            width: 90%;
+        }
+        /* .right-item {
+            width: px;
+        } */
+        .item-name{
+            color: blue;
+            font-size: 22px;
+        }
+        .p-quan{
+            margin: 10px 0;
+        }
+        .img-js{
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .contact{
+            background-color: blue;
+            color: white;
+            border: 1px solid transparent;
+            padding: 7px 15px 7px 15px;
+            border-radius: 5px;
+            /* position: relative;
+            left: 440px;
+            bottom: 170px; */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="con">
+            <div class="logo">
+                <img src="/Images/logo-removebg-preview.png" alt="" style="height: 50px; width: 45px;" class="img">
+                <h1 class="h1">Supreme Package
+                    Machinery Ventures</h1>
+            </div>
+            <ul id="navLinks">
+                <li class="list"><a href="index.html">Home</a></li>
+                <li class="list"><a href="about.html">About Us</a></li>
+                <li class="list"><a href="Service.html">Service</a></li>
+                <li class="list"><a href="contact.html">Contact</a></li>
+                <li class="list"><a href="#">Products</a></li>
+                <div class="cart-logo">
+                    <a href="cart.html"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                </div>
+            </ul>
+            <div class="Hamburger-menu" onclick="toggleMenu()">
+                <i class="uil uil-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <div class="cart-div">
+        <div class="cart">
+            <h1 class="h1-cart">My Cart</h1>
+        </div>
+        <div class="div-p" id="cartItems">
+        </div>
+        <hr class="HR">
+        <!-- <a href="Product1.html">Continuing shooping</a> -->
+    </div>
+    <script src="/Javascript/cart.js"></script>
+    <script src="/Javascript/script2.js"></script>
