@@ -16,7 +16,7 @@
     height: 30vh;
 }
 .back-drop{
-    background-image: url(/Images/WhatsApp\ Image\ 2024-10-29\ at\ 14.06.52.jpeg);
+    background-image: url("../Images/WhatsApp\ Image\ 2024-10-29\ at\ 14.06.52.jpeg");
     height: 60vh;
     background-size: cover;
     display: flex;
