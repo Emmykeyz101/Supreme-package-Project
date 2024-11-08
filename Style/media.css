@@ -13,10 +13,9 @@
         align-items: center;
         transition: all 0.5s ease-in-out;
     }
-    .list{
-        transform: translateY(-10px);
+    .list.a:hover{
+        background-color: none;
     }
-    
     ul li{
         margin: 10px 0;
         text-align: center;
@@ -189,18 +188,22 @@
     position: relative;
     bottom: 40px;
    }
+   .p-text{
+    font-size: 20px;
+   }
    .h4{
     margin-top: 10px;
    }
-   .addToCart{
-    width: 30%;
-    font-size: 13px;
-    margin-top: 20px;
+   .bit{
+    width: 100%;
+   }
+   /* .addToCart{
+    font-size: 10px;
    }
    .button-class{
-    width: 30%;
-    font-size: 13px;
-   }
+    font-size: 10px;
+  
+   } */
    .white-spacing{
     margin-top: 0;
     font-size: 18px;
@@ -303,7 +306,7 @@ p{
 .copyrights{
     font-size: 15px;
 }
-.img-js{
+/* .img-js{
 
-}
+} */
 }
